@@ -396,3 +396,5 @@ void AON_PC_IRQHandler(void)
 {
 	GPIO_IRQ_Default_proc(PC, 2);
 }
+
+// add test from aoou 250705
