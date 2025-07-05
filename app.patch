@@ -1,0 +1,24 @@
+diff --git a/CI130X_SDK_ALG_PRO_V2.5.28/driver/ci130x_chip_driver/src/ci130x_gpio.c b/CI130X_SDK_ALG_PRO_V2.5.28/driver/ci130x_chip_driver/src/ci130x_gpio.c
+index 90ed0a4..d6cea7a 100644
+--- a/CI130X_SDK_ALG_PRO_V2.5.28/driver/ci130x_chip_driver/src/ci130x_gpio.c
++++ b/CI130X_SDK_ALG_PRO_V2.5.28/driver/ci130x_chip_driver/src/ci130x_gpio.c
+@@ -396,3 +396,5 @@ void AON_PC_IRQHandler(void)
+ {
+ 	GPIO_IRQ_Default_proc(PC, 2);
+ }
++
++// add test from aoou 250705
+diff --git a/CI130X_SDK_ALG_PRO_V2.5.28/projects/offline_asr_alg_pro_sample/app/app_ir/ir_led_light.c b/CI130X_SDK_ALG_PRO_V2.5.28/projects/offline_asr_alg_pro_sample/app/app_ir/ir_led_light.c
+index 75f4d33..81b4961 100644
+--- a/CI130X_SDK_ALG_PRO_V2.5.28/projects/offline_asr_alg_pro_sample/app/app_ir/ir_led_light.c
++++ b/CI130X_SDK_ALG_PRO_V2.5.28/projects/offline_asr_alg_pro_sample/app/app_ir/ir_led_light.c
+@@ -136,4 +136,6 @@ int ir_task_init()
+ #endif
+     user_led_light_init();
+ 
+-}
+\ No newline at end of file
++}
++
++// add today by aoou test git 250705
+\ No newline at end of file
